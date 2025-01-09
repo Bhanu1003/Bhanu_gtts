@@ -2,7 +2,7 @@ from gtts import gTTS
 from googletrans import Translator
 
 # Set up text and target language
-text = "Hello Vikram, can you please test my accent once"
+text = "Chiru is Bokada"
 target_language = "kn"  # Telugu language code
 
 # Translate the text

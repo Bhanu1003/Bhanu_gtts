@@ -10,3 +10,4 @@ translated = tokenizer.prepare_seq2seq_batch([text], return_tensors="pt")
 translated_tokens = model.generate(**translated)
 translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
 print("Translated Text:", translation)
+print("Hi")
